@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-04-11T15:26:39.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.5" etag="JPY-U5BOG3PkdeYK37rV" type="github">
+  <diagram name="Page-1" id="IjVy13B8rFnKBIwWiO01">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Latent Vector" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="65" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Generator" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="163" y="77" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Generated Image" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" width="138" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Discriminator" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="489" y="14" width="111" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Real Image" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="762" y="23" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Loss Calculation" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="4" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Backpropagation" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="54" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9970501249870368;exitY=0.4980088630608753;entryX=-0.0037879076871004972;entryY=0.5031250173395331;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9939393997192383;exitY=0.12596044783229585;entryX=0.003381646197775136;entryY=0.5013285097868546;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="69" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0060386657714844;exitY=0.5013285097868546;entryX=-0.0015014785904068132;entryY=0.497147156311585;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9959459734392596;exitY=0.497147156311585;entryX=-0.0012544201266381047;entryY=0.49659499301705307;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0012545021631385;exitY=0.49659499301705307;entryX=0.0008974515474759615;entryY=0.5014102642352765;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0023077157827525;exitY=0.5014102642352765;entryX=0.0022388287444612873;entryY=0.2188593199797392;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="69" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Update Weights" style="curved=1;startArrow=none;endArrow=block;exitX=0.0022388287444612873;exitY=0.7852451804065131;entryX=0.9939393997192383;entryY=0.8802895868467702;" edge="1" parent="1" source="8" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="173" />
+              <mxPoint x="275" y="173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
